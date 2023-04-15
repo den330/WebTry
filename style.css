@@ -25,7 +25,16 @@ nav ul {
   list-style-type: none;
 }
 
+.gallery {
+  display: grid;
+}
+
+.gallery img {
+  width: 2rem;
+  height: 2rem;
+}
+
 footer {
-  position: absolute;
+  position: static;
   margin: 0;
 }
