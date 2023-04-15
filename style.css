@@ -27,7 +27,7 @@ nav ul {
 
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 100px 100px 100px;
   /* grid-template-rows: 1fr 1fr; */
 }
 
