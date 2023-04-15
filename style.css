@@ -33,7 +33,7 @@ nav ul {
 }
 
 .gallery img {
-  width: auto;
+  max-width: 30%;
 }
 
 footer {
