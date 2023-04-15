@@ -24,3 +24,21 @@ nav ul {
   align-items: center;
   list-style-type: none;
 }
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.gallery img {
+  max-width: 100%;
+}
+
+footer {
+  position: static;
+  margin: 0;
+}
