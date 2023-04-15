@@ -29,11 +29,6 @@ nav ul {
   display: grid;
 }
 
-.gallery img {
-  width: 2rem;
-  height: 2rem;
-}
-
 footer {
   position: static;
   margin: 0;
