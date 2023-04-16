@@ -19,7 +19,7 @@ h2:hover {
 }
 
 h1::first-letter {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   color: black;
 }
