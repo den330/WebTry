@@ -16,6 +16,11 @@ header {
 h1:hover,
 h2:hover {
   color: red;
+  overflow: auto;
+}
+
+h2 {
+  overflow: hidden;
 }
 
 h2::selection {
@@ -28,7 +33,8 @@ h1::first-letter {
   color: black;
 }
 
-h1 {
+h1,
+h2 {
   color: rgb(219, 146, 45);
   /* margin-bottom: 3rem; */
 }
