@@ -37,7 +37,7 @@ nav ul {
   align-items: center;
 }
 
-@media (mid-width: 700px) {
+@media (min-width: 700px) {
   .gallery {
     grid-template-areas:
       "img6 img2"
