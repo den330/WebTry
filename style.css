@@ -40,13 +40,17 @@ nav ul {
 @media (min-width: 700px) {
   .gallery {
     grid-template-areas:
-      "img6 img2"
-      "img3 img4"
-      "img5 img1";
+      "#img6 #img2"
+      "#img3 #img4"
+      "#img5 #img1";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
+
+/* #img1 {
+  grid-area: img1;
+} */
 
 .gallery img {
   max-width: 100%;
