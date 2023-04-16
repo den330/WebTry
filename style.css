@@ -16,11 +16,7 @@ header {
 h1:hover,
 h2:hover {
   color: red;
-  text-overflow: auto;
-}
-
-h2 {
-  text-overflow: hidden;
+  writing-mode: vertical-rl;
 }
 
 h2::selection {
