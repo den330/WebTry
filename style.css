@@ -16,11 +16,11 @@ header {
 h1:hover,
 h2:hover {
   color: red;
-  overflow: auto;
+  text-overflow: auto;
 }
 
 h2 {
-  overflow: hidden;
+  text-overflow: hidden;
 }
 
 h2::selection {
