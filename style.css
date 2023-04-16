@@ -28,8 +28,8 @@ nav ul {
 .gallery {
   display: grid;
   grid-template-areas:
-    "#img6 #img2 #img3"
-    "#img4 #img5 #img1";
+    "img6 img2 img3"
+    "img4 img5 img1";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
@@ -40,17 +40,37 @@ nav ul {
 @media (min-width: 700px) {
   .gallery {
     grid-template-areas:
-      "#img6 #img2"
-      "#img3 #img4"
-      "#img5 #img1";
+      "img6 img2"
+      "img3 img4"
+      "img5 img1";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
 }
 
-/* #img1 {
+#img1 {
   grid-area: img1;
-} */
+}
+
+#img2 {
+  grid-area: img2;
+}
+
+#img3 {
+  grid-area: img3;
+}
+
+#img4 {
+  grid-area: img4;
+}
+
+#img5 {
+  grid-area: img5;
+}
+
+#img6 {
+  grid-area: img6;
+}
 
 .gallery img {
   max-width: 100%;
