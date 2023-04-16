@@ -18,6 +18,10 @@ h2:hover {
   color: red;
 }
 
+h2::selection {
+  color: green;
+}
+
 h1::first-letter {
   font-size: 4rem;
   font-weight: bold;
