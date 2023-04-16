@@ -13,6 +13,16 @@ header {
   background-color: rgb(215, 31, 197);
 }
 
+h1,
+h2:hover {
+  color: red;
+}
+
+h1::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 h1 {
   color: rgb(219, 146, 45);
   /* margin-bottom: 3rem; */
