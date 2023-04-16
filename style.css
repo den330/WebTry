@@ -28,14 +28,24 @@ nav ul {
 .gallery {
   display: grid;
   grid-template-areas:
-    "#img1 #img2 #img3"
-    "#img4 #img5 #img6";
+    "#img6 #img2 #img3"
+    "#img4 #img5 #img1";
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
-  min-width: 800px;
   justify-items: center;
   align-items: center;
+}
+
+@media (mid-width: 700px) {
+  .gallery {
+    grid-template-areas:
+      "img6 img2"
+      "img3 img4"
+      "img5 img1";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 }
 
 .gallery img {
