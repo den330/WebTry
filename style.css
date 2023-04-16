@@ -13,7 +13,7 @@ header {
   background-color: rgb(215, 31, 197);
 }
 
-h1,
+h1:hover,
 h2:hover {
   color: red;
 }
